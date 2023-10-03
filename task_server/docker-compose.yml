@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  taskd:
+    image: taskd
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "53589:53589"
+    volumes:
+      - ./taskd:/var/taskd
+    environment:
+      - CERT_BITS=4096
+      - CERT_EXPIRATION_DAYS=365
+      - CERT_ORGANIZATION="Knox"
+      - CERT_CN=localhost
+      - CERT_COUNTRY=US
+      - CERT_STATE	"Pennsylvania"
+      - CERT_LOCALITY	"Philadelphia"

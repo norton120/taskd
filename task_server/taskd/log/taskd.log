@@ -1,0 +1,46 @@
+2023-10-03 14:10:48 ==== taskd 1.1.0  ====
+2023-10-03 14:10:48 Serving from /var/taskd
+2023-10-03 14:10:48 Using address 0.0.0.0
+2023-10-03 14:10:48 Using port 53589
+2023-10-03 14:10:48 Using family 
+2023-10-03 14:10:48 Queue size 10 requests
+2023-10-03 14:10:48 Request size limit 1048576 bytes
+2023-10-03 14:10:48 IP logging on
+2023-10-03 14:10:48 CA          /var/taskd/pki/ca.cert.pem
+2023-10-03 14:10:48 Certificate /var/taskd/pki/server.cert.pem
+2023-10-03 14:10:48 Private Key /var/taskd/pki/server.key.pem
+2023-10-03 14:10:48 CRL         /var/taskd/pki/server.crl.pem
+2023-10-03 14:10:48 Server starting
+2023-10-03 14:10:48 Server ready
+2023-10-03 14:24:33 INFO Auth failure: org 'Knox' unknown
+2023-10-03 14:24:33 [1] Serviced in 0.043179s
+2023-10-03 14:26:41 INFO Auth failure: org 'Knox' unknown
+2023-10-03 14:26:41 [2] Serviced in 0.040299s
+2023-10-03 14:29:56 INFO Auth failure: org 'Knox' unknown
+2023-10-03 14:29:56 [3] Serviced in 0.039799s
+2023-10-03 15:10:32 ==== taskd 1.1.0  ====
+2023-10-03 15:10:32 Serving from /var/taskd
+2023-10-03 15:10:32 Using address 0.0.0.0
+2023-10-03 15:10:32 Using port 53589
+2023-10-03 15:10:32 Using family 
+2023-10-03 15:10:32 Queue size 10 requests
+2023-10-03 15:10:32 Request size limit 1048576 bytes
+2023-10-03 15:10:32 IP logging on
+2023-10-03 15:10:32 CA          /var/taskd/pki/ca.cert.pem
+2023-10-03 15:10:32 Certificate /var/taskd/pki/server.cert.pem
+2023-10-03 15:10:32 Private Key /var/taskd/pki/server.key.pem
+2023-10-03 15:10:32 CRL         /var/taskd/pki/server.crl.pem
+2023-10-03 15:10:32 Server starting
+2023-10-03 15:10:32 Server ready
+2023-10-03 15:10:37 INFO Auth failure: org 'Knox' unknown
+2023-10-03 15:10:37 [1] Serviced in 0.039855s
+2023-10-03 15:11:16 INFO Auth failure: org 'Knox' unknown
+2023-10-03 15:11:16 [2] Serviced in 0.042575s
+2023-10-03 15:12:27 [3] 'sync' from 'knox/ethan' using 'task 2.6.1' at 172.18.0.1:55962
+2023-10-03 15:12:27 [3] Client key '' + 2 txns
+2023-10-03 15:12:27 [3] Loaded 0 records
+2023-10-03 15:12:27 [3] Subset 0 tasks
+2023-10-03 15:12:27 [3] Stored 2 tasks, merged 0 tasks
+2023-10-03 15:12:27 [3] New sync key '26bc7db5-286a-4ae8-82ba-5d9b87fca397'
+2023-10-03 15:12:27 [3] Wrote 3
+2023-10-03 15:12:27 [3] Serviced in 0.043352s
